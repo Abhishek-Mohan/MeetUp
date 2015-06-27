@@ -270,6 +270,7 @@ public class MapDisplayFragment extends Fragment
 
         // UNCOMMENT NEXT LINE ONCE YOU HAVE INSTANTIATED mySchedulePlot
 
+        // First clear any schedules on the map.
         clearSchedules();
         String dayOfWeek = sharedPreferences.getString("dayOfWeek", "MWF");
         Schedule myschedule = me.getSchedule();
